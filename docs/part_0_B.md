@@ -1,21 +1,9 @@
 
 ## Part 0 (B): Preparation: deploy to Heroku
 
-If you have deployed to Heroku before, just create a new app container
-with `heroku create`.  If this is your first time deploying to Heroku,
-you will need to do two things.  First, sign up for a free [Heroku
-account](http://heroku.com).  Then set up `ssh` keys to securely
-communicate with Heroku for app deployments.  The three basic commands
-you need are the following, but see the Heroku page for more details.
-
-```sh
-$ ssh-keygen -t rsa
-$ heroku login
-$ heroku keys:add
-```
-
-Once your keys are set up (a one-time process), you should be able to create an "app
-container" on Heroku into which you'll deploy RottenPotatoes:
+At this point, you should already have deployed to Heroku before (hangperson homework),
+so you just need to create a new app container for this new homework by running the
+command:
 
 ```sh
 $ heroku create
