@@ -1,11 +1,15 @@
 ## Part 0 (A): Preparation: get RottenPotatoes running locally
 
 The actual RottenPotatoes starter app you will use is in another public
-repo: [saasbook/rottenpotatoes-rails-intro](https://github.com/saasbook/rottenpotatoes-rails-intro).  Clone that repo onto your development computer:
+repo: [lgbanuelos/rottenpotatoes-rails-intro](https://github.com/lgbanuelos/rottenpotatoes-rails-intro).  Clone that repo onto your development computer:
 
 ```sh
-$ git clone https://github.com/saasbook/rottenpotatoes-rails-intro
+$ git clone https://github.com/lgbanuelos/rottenpotatoes-rails-intro
 ```
+
+**IMPORTANT:** If your are using a Windows box, you must replace the 
+content of `config/database.yml` as we have done during the last 
+lecture/practical (see https://bitbucket.org/lgbanuelos/asd-2016/wiki/Lecture5).
 
 Whenever you start working on a Rails project, the first thing you
 should do is to run Bundler, to make sure all the app's gems are
@@ -49,6 +53,6 @@ other available Rake tasks)</summary>
 </details>
 
 At this point you should be able to run the app locally (`rails server`)
-and navigating to `http://localhost:3000/movies` in your browser.  If you are using c9, use `rails s -p $PORT -b $IP` and navigate to the link generated within c9.
+and navigating to `http://localhost:3000/movies` in your browser.
 
 Next: [Part 0 (B): Preparation: deploy to Heroku](part_0_B.md)
